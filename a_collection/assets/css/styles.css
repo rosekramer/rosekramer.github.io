@@ -375,14 +375,14 @@ text-decoration: none; color: black;}
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/disco/cher33copy.jpg");
+	background: url("../media/disco/discocopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
 	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
-#disco1:hover{background: url("../media/disco/cher33.jpg");}
+#disco1:hover{background: url("../media/disco/disco.jpg");}
 
 #disco2{
 	width: 400px;
@@ -420,14 +420,14 @@ text-decoration: none; color: black;}
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/disco/discocopy.jpg");
+	background: url("../media/disco/cher33copy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
 	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
-#disco4:hover{background: url("../media/disco/disco.jpg");}
+#disco4:hover{background: url("../media/disco/cher33.jpg");}
 
 #folk1{
 	width: 400px;
