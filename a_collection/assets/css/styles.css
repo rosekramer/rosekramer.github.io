@@ -79,7 +79,7 @@ text-decoration: none; color: black;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/today/jonicopy.jpg");
+	background: url("../media/folk/no secretscopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
@@ -87,7 +87,7 @@ text-decoration: none; color: black;
 	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
 	#circle3:hover{
-		background: url("../media/today/joni.jpg");
+		background: url("../media/folk/no secrets.jpg");
 	}
 
 #circle4{
