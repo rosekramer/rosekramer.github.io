@@ -7,6 +7,11 @@ body{
 	font-size: 500%;
 	font-family: 'Gravitas One', cursive;}
 
+
+#header a:link, #header a:visited, #header a:hover, #header a:active {
+	text-decoration: none; color: black;
+} 
+
 #subhead{
 	text-align: center;
 	font-size: 150%;
@@ -18,6 +23,10 @@ body{
 	text-decoration: none; color: black;
 }
 
+#subhead a.active {
+	font-weight: 700;
+}
+
 #maincircles{
 	width: 100%;
 	height: 400px;
@@ -25,21 +34,27 @@ body{
     overflow-x:auto;
     overflow-y: hidden;}
 
+#maincircles a:link, #maincircles a:visited, #maincircles a:hover, #maincircles a:active {
+text-decoration: none; color: black;
+}
+
 #circle1{
 	width: 400px;
 	height: 400px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background-image: url("../media/icons/biancaj/bianca5.jpg");
+	background-image: url("../media/icons/alimacg/newfacecopy.jpg");
 	display: inline-block;
-	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 400%;
-	font-family: 'Karla', sans-serif;}
-
+	text-align: center;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;
+}
+	#circle1:hover{
+		background: url("../media/icons/alimacg/newface.jpg");
+	}
 
 #circle2{
 	width: 400px;
@@ -47,14 +62,16 @@ body{
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/jerryhall/7.jpg");
+	background: url("../media/ads/jeans2copy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 450%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+	#circle2:hover{
+		background: url("../media/ads/jeans2.jpg");
+	}
 
 #circle3{
 	width: 400px;
@@ -62,14 +79,16 @@ body{
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/cher/011713-Cher-400.jpg");
+	background: url("../media/today/jonicopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 450%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+	#circle3:hover{
+		background: url("../media/today/joni.jpg");
+	}
 
 #circle4{
 	width: 400px;
@@ -77,29 +96,33 @@ body{
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/ads/rye.jpg");
+	background: url("../media/folk/hughhollandcopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 450%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;
 }
+	#circle4:hover{
+		background: url("../media/folk/hughholland.jpg");
+	}
+
 #circle5{
 	width: 400px;
 	height: 400px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/folk/no secrets.jpg");
+	background: url("../media/disco/bhorsecopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 450%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+	#circle5:hover{
+		background: url("../media/disco/bhorse.jpeg");}
 
 #circle6{
 	width: 400px;
@@ -107,34 +130,40 @@ body{
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/jerryhall/jerry-hall.jpg");
+	background: url("../media/icons/jerryhall/jerry-hallcopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 450%;
-	font-family: 'Karla', sans-serif;}
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;
+}
+#circle6:hover{
+		background: url("../media/icons/jerryhall/jerry-hall.jpg");}
 
 #iconscircles{
-	width:1500px; 
-	height:500px;
-    display: inline-block;}
-
+	width:1220px; 
+	height:800px;
+    margin-left: auto;
+	margin-right: auto;}
+#iconscircles a:link, #iconscircles a:visited, #iconscircles a:hover, #iconscircles a:active {
+text-decoration: none; color: black;
+}
 #bj{
 width: 400px;
 	height: 400px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/biancaj/images-1.jpg");
+	background: url("../media/icons/biancaj/biancacosmocopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 350%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+#bj:hover{
+		background: url("../media/icons/biancaj/biancacosmo.jpg");}
 
 #am{
 width: 400px;
@@ -142,14 +171,15 @@ width: 400px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/alimacg/images.jpg");
+	background: url("../media/icons/alimacg/imagescopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 350%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+#am:hover{
+		background: url("../media/icons/alimacg/images.jpg");}
 
 #c{
 width: 400px;
@@ -157,14 +187,15 @@ width: 400px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/cher/url.jpg");
+	background: url("../media/icons/cher/urlcopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 350%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+#c:hover{
+		background: url("../media/icons/cher/url.jpg");}
 
 #dr{
 width: 400px;
@@ -172,14 +203,15 @@ width: 400px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/dianaross/images.jpg");
+	background: url("../media/icons/dianaross/imagescopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 350%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+#dr:hover{
+		background: url("../media/icons/dianaross/images.jpg");}
 
 #gj{
 width: 400px;
@@ -187,14 +219,15 @@ width: 400px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/gracejones/images.jpg");
+	background: url("../media/icons/gracejones/imagescopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 350%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+#gj:hover{
+		background: url("../media/icons/gracejones/images.jpg");}
 
 #jh{
 width: 400px;
@@ -202,14 +235,15 @@ width: 400px;
 	-moz-border-radius: 200px;
 	-webkit-border-radius: 200px;
 	border-radius: 200px;
-	background: url("../media/icons/jerryhall/url.jpg");
+	background: url("../media/icons/jerryhall/urlcopy.jpg");
 	display: inline-block;
 	text-align: center;
 	overflow-x:auto;
     overflow-y: hidden;
-	opacity: 0.75;
-	font-size: 350%;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;}
+#jh:hover{
+		background: url("../media/icons/jerryhall/url.jpg");}
 
 #maintxt{
 	font-size: 100%;
@@ -230,14 +264,250 @@ figcaption{
 	font-family: 'Karla', sans-serif;
 }
 
-
-
 #onlytxt{
+	font-family: 'Karla', sans-serif;}
+
+#sl{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/today/sl3copy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
 	font-family: 'Karla', sans-serif;
+}
+#sl:hover{
+		background: url("../media/today/sl3.jpg");}
+
+#ep{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/today/sccopy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;
+}
+#ep:hover{
+		background: url("../media/today/sc.jpg");}
+
+#gu{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/today/guc12copy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#gu:hover{
+		background: url("../media/today/guc12.jpg");}
+
+#mainadvert{width: 1220px;
+height: 400px;
+margin-left: auto ;
+margin-right: auto ;}
+#mainadvert a:link, #mainadvert a:visited, #mainadvert a:hover, #mainadvert a:active {
+text-decoration: none; color: black;}
+
+		#advert1{
+			width: 400px;
+			height: 400px;
+			-moz-border-radius: 200px;
+			-webkit-border-radius: 200px;
+			border-radius: 200px;
+			background: url("../media/ads/nipplecopy.jpg");
+			display: inline-block;
+			text-align: center;
+			overflow-x:auto;
+		    overflow-y: hidden;
+			font-size: 250%;
+			font-family: 'Karla', sans-serif;}
+		#advert1:hover{background: url("../media/ads/nipple.jpg");}
+
+		#advert2{
+			width: 400px;
+			height: 400px;
+			-moz-border-radius: 200px;
+			-webkit-border-radius: 200px;
+			border-radius: 200px;
+			background: url("../media/ads/browncopy.jpg");
+			display: inline-block;
+			text-align: center;
+			overflow-x:auto;
+		    overflow-y: hidden;
+			font-size: 250%;
+			font-family: 'Karla', sans-serif;}
+		#advert2:hover{background: url("../media/ads/brown.jpg");}
+
+		#advert3{
+			width: 400px;
+			height: 400px;
+			-moz-border-radius: 200px;
+			-webkit-border-radius: 200px;
+			border-radius: 200px;
+			background: url("../media/ads/jeans2copy.jpg");
+			display: inline-block;
+			text-align: center;
+			overflow-x:auto;
+		    overflow-y: hidden;
+			font-size: 250%;
+			font-family: 'Karla', sans-serif;}
+		#advert3:hover{background: url("../media/ads/jeans2.jpg");}
+
+#disco1{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/disco/cher33copy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#disco1:hover{background: url("../media/disco/cher33.jpg");}
+
+#disco2{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/disco/bhorsecopy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#disco2:hover{background: url("../media/disco/bhorse.jpeg");}
+
+#disco3{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/disco/beegeescopy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#disco3:hover{background: url("../media/disco/beegees.jpg");}
+
+#disco4{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/disco/discocopy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#disco4:hover{background: url("../media/disco/disco.jpg");}
+
+#folk1{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/today/jonicopy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	opacity: 0.75;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#folk1:hover{background: url("../media/today/joni.jpg");}
+
+#folk2{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/folk/lccopy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#folk2:hover{background: url("../media/folk/lc.jpg");}
+
+#folk3{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/folk/no secretscopy.jpg");
+	text-align: center;
+		display: inline-block;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#folk3:hover{background: url("../media/folk/no secrets.jpg");}
+
+#folk4{
+	width: 400px;
+	height: 400px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	background: url("../media/folk/hughhollandcopy.jpg");
+	display: inline-block;
+	text-align: center;
+	overflow-x:auto;
+    overflow-y: hidden;
+	font-size: 250%;
+	font-family: 'Karla', sans-serif;}
+#folk4:hover{background: url("../media/folk/hughholland.jpg");}
+#alttxt{
+		font-family: 'Karla', sans-serif;
 
 }
+#mainfolk{
+	width: 900px;
+	height: 900px;
+	border-style: ;
+margin: auto;
+}
+#mainfolk a:link, #mainfolk a:visited, #mainfolk a:hover, #mainfolk a:active {
+text-decoration: none; color: black;}
 
-//use p class 
+
+
+
+
+
+
 
 
 
