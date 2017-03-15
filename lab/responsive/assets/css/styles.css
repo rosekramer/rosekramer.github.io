@@ -1,7 +1,16 @@
 h1{
 color: white;
-font-family: 'Playfair Display', serif;
+font-family: 'Bentham', serif;
 text-align: center;
+font-size: 50px;
+}
+
+h5{
+color: white;
+font-family: 'Bentham', serif;
+position: fixed;
+right:20px;
+bottom: 10px;
 }
 
 header{
@@ -61,10 +70,22 @@ body{
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1800px) {
 	.block{
 		background-image: url("../media/rose.jpg");
 }
+	.label.poppy{
+		display: none;
+	}
+	.label.parrot {
+		display:none;
+	}
+	.label.daisy {
+		display:none;
+	}
+	.label.orchid {
+		display:none;
+	}
 	.label.orchid {
 		display:none;
 	}
@@ -74,43 +95,115 @@ body{
 	.label.active {
 		display:inline;
 	}
+	.label.hibiscus{
+		display: none;
+	}
+
+}
+
+@media (max-width: 1000px) {
+	.block{
+		background-image: url("../media/orchid.jpg");
+}
+	.label.parrot {
+		display:none;
+	}
+	.label.daisy {
+		display:none;
+	}
+	.label.orchid {
+		display:none;
+	}
+	.label.orchid {
+		display:none;
+	}
+	.label.inactive {
+		display:none;
+	}
+	.label.active {
+		display:none;
+	}
+	.label.hibiscus{
+		display: inline;
+	}
+	
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
 	
 	.block{
 	background-image: url("../media/orchid2.jpg");
 	}
-	.label.active {
+	.label.parrot {
 		display:none;
 	}
-
-	.label.inactive {
+	.label.daisy {
 		display:none;
 	}
 	.label.orchid {
 		display:inline;
 	}
 	
+	.label.inactive {
+		display:none;
+	}
+	.label.active {
+		display:none;
+	}
+	.label.hibiscus{
+		display: none;
+	}
+}
+@media (max-width: 500px) {
+	.block{
+		background-image: url("../media/parrottulip.jpg");
+}
+	.label.parrot {
+		display:inline;
+	}
+	.label.daisy {
+		display:none;
+	}
+	.label.orchid {
+		display:none;
+	}
+	.label.orchid {
+		display:none;
+	}
+	.label.inactive {
+		display:none;
+	}
+	.label.active {
+		display:none;
+	}
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
 	
 	.block{
 	background-image: url("../media/tulip.jpg");
 	}
+	.label.parrot {
+		display:none;
+	}
+	.label.daisy {
+		display:none;
+	}
+	.label.orchid {
+		display:none;
+	}
+	.label.orchid {
+		display:none;
+	}
+	.label.inactive {
+		display:inline;
+	}
 	.label.active {
 		display:none;
 	}
 
-	.label.orchid {
-		display:none;
-	}
-
-	.label.inactive {
-		display:inline;
-	}
+}
 	
 } /* end
