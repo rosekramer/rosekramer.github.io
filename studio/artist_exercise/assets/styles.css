@@ -1,0 +1,74 @@
+h1{
+		font-family: 'Karla', sans-serif;
+		text-align: center;
+}
+h3{
+	font-family: 'Karla', sans-serif;
+	height: 450px;
+	width:450px;
+	margin: auto;
+	margin-top: 60px;
+}
+h3:hover{
+	color:navy;
+}
+#mainframe{
+	width:500px; 
+	height:500px;
+	background-color: white;
+	margin: auto;
+	border-style: solid;
+    border-color: black;
+}
+
+#innerframe{
+	width:450px; 
+	height:450px;
+	background-color: #ff9966;
+	margin: auto;
+	margin-top: 24px;
+}
+
+#hair{
+   width: 252px;
+   height: 360px;
+   background-color: black;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:50%  50%  50%  50%  / 60%   60%   40%  40%;
+   margin-top: -400px;
+	margin-left: 200px;
+}
+
+#face{
+	width: 126px;
+   height: 180px;
+   background-color: #f9ddac;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:50%  50%  50%  50%  / 60%   60%   40%  40%;
+   margin-top: -300px;
+   margin-left: 250px;
+   margin-right: -300px;
+}
+
+@media (max-width: 550px) {
+			#mainframe{width: 80%;
+			height: 80%;}
+			
+			#innerframe{width: 80%;
+			height: 80%;}
+			
+			#hair{width: 80%;
+			height: 80%;}
+			
+			#face{width: 80%;
+			height: 80%;}
+			
+			h3{font-size: 80%;
+			width: 400px;}
+}
+
+@media(max-width: 400px){
+	h3{font-size: 70%;
+		width: 300px;}
+
+}
