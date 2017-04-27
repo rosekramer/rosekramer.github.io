@@ -1,0 +1,41 @@
+h1{
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Karla', sans-serif;
+}
+
+
+
+
+body{
+	background-color: white;
+}
+img{
+	width:250px;
+	height: 300px;
+}
+.letter {
+	width: 50px;
+	height: 50px;
+	display:inline-block;
+	margin-left:50px;
+	margin-right: 50px;
+}
+
+.capital{
+	height:100px;
+	margin-top: 0px;
+}
+
+.space{
+	width:50px;
+	height:50px;
+	display: inline-block;
+}
+
+#container{
+	width: 1450px;
+	height: 2000px;
+	margin-left:50px;
+	margin-right:50px;
+}

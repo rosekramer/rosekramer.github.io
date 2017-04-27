@@ -17,3 +17,14 @@ h1{
 	text-align: center;
 }
 
+#showmore{
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+	border-style: solid;
+}
+
+#showmore:hover{
+background-color: black;
+color:white;}
