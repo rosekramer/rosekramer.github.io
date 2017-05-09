@@ -250,11 +250,11 @@ document.addEventListener('keydown', function(event) {
         //     // allElements[i].addEventListener("mouseover", mouseOver);   
         //     // allElements[i].addEventListener("mouseout", mouseOut); 
         // }
-         document.getElementById("id_a").src = "assets/media/alberscopy.jpg";
-         document.getElementById("id_b").src = "assets/media/basqiuat.jpeg";
-         document.getElementById("id_c").src = "assets/media/cattelancopy.jpg";
-         document.getElementById("id_d").src = "assets/media/degascopy.jpg";
-         document.getElementById("id_e").src = "assets/media/elgortcopy.jpg";
+        document.getElementById("id_a").src = "assets/media/alberscopy.jpg";
+        document.getElementById("id_b").src = "assets/media/basqiuat.jpeg";
+        document.getElementById("id_c").src = "assets/media/cattelancopy.jpg";
+        document.getElementById("id_d").src = "assets/media/degascopy.jpg";
+        document.getElementById("id_e").src = "assets/media/elgortcopy.jpg";
         document.getElementById("id_f").src = "assets/media/fischercopy.jpg";
         document.getElementById("id_g").src = "assets/media/goldincopy.jpg";
         document.getElementById("id_h").src = "assets/media/hockneycopy.jpeg";

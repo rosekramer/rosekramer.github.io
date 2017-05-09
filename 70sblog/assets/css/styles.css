@@ -1,4 +1,21 @@
+h2{
+	text-align: center;
+}
 
+
+#footer{
+	font-family: 'Montserrat', sans-serif;
+	position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+	text-align: center;
+}
+.container{
+	margin-left: 100px;
+	margin-right: 50px;
+}
 a:link {
     text-decoration: none;
     color: black;
