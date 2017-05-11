@@ -1,20 +1,18 @@
+#ham{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
 h2{
 	text-align: center;
 }
 
 
-#footer{
-	font-family: 'Montserrat', sans-serif;
-	position:fixed;
-   left:0px;
-   bottom:0px;
-   height:40px;
-   width:100%;
-	text-align: center;
-}
 .container{
-	margin-left: 100px;
-	margin-right: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
 }
 a:link {
     text-decoration: none;
@@ -73,12 +71,22 @@ header {
 	margin-left: 800px;
 }
 
-		#cartxt{
+		.cartxt{
 			text-align: center;
 			font-family: 'Montserrat', sans-serif;
-			height:50px;
+			height:100px;
 			margin-left: 700px;
 			font-size: 25px;
+		}
+		.carhover{
+			display: none ;
+			font-family: 'Montserrat', sans-serif;
+			color: black;
+		    font-size: 13px;
+		    margin-left: 1000px;	
+		    height: 100px;
+		    width:300px;
+		   	
 		}
 
 #cosmetics{
@@ -88,7 +96,7 @@ header {
 	margin-left: 30px;
 }
 
-		#costxt{
+		.costxt{
 			text-align: center;
 			font-family: 'Montserrat', sans-serif;
 			height:50px;
@@ -96,6 +104,17 @@ header {
 			font-size: 25px;
 		}
 
+		.coshover { 
+			display: none ;
+			font-family: 'Montserrat', sans-serif;
+		    color: black;
+		    font-size: 13px;
+		    margin-left: 1000px;	
+		    height: 100px;
+		    width:300px;	
+		}
+
+		
 #mag{
 	width:700px;
 	height:450px;
@@ -104,38 +123,67 @@ header {
 	background: lightblue;
 	background-image: url("../../media/gloria.jpg");
 }
-		#magtxt{
+		.magtxt{
 			text-align: center;
 			font-family: 'Montserrat', sans-serif;
 			height:50px;
 			margin-left: 480px;
 			font-size: 25px;
 		}
+
+		.maghover{
+			display: none ;
+			font-family: 'Montserrat', sans-serif;
+		    color: black;
+		    font-size: 13px;
+		    margin-left: 1120px;	
+		    height: 100px;
+		    width:300px;
+		}
 #movies{
 	width:300px;
 	height:400px;
 	margin-top: -100px;
 	margin-left: 30px;
-background-image: url("../../media/fever.jpg");}
-		#movtxt{
+	background-image: url("../../media/fever.jpg");}
+		.movtxt{
 			text-align: center;
 			font-family: 'Montserrat', sans-serif;
 			height:50px;
 			margin-left: -1090px;
 			font-size: 25px;
+		} 
+
+		.movhover{
+			display: none ;
+			font-family: 'Montserrat', sans-serif;
+		    color: black;
+		    font-size: 13px;
+		    margin-left: 1120px;	
+		    height: 100px;
+		    width:300px;	
 		}
 #protest{
 	width:500px;
 	height:500px;
 	margin-top: -200px;
 	margin-left: 800px;
-background-image: url("../../media/gun.jpg");}
-		#protxt{
+	background-image: url("../../media/gun.jpg");}
+		.protxt{
 			text-align: center;
 			font-family: 'Montserrat', sans-serif;
 			height:50px;
 			margin-left: 700px;
 			font-size: 25px;
+		}
+		.prohover{
+			display: none ;
+			font-family: 'Montserrat', sans-serif;
+		    color: black;
+		    font-size: 13px;
+		    margin-left: 1120px;	
+		    height: 100px;
+		    width:300px;
 		}
 #race{
 	width:600px;
@@ -143,7 +191,7 @@ background-image: url("../../media/gun.jpg");}
 	margin-top: -200px;
 	margin-left: 30px;
 	background-image: url("../../media/race.jpg");}
-		#racetxt{
+		.racetxt{
 			text-align: center;
 			font-family: 'Montserrat', sans-serif;
 			height:50px;
@@ -151,6 +199,15 @@ background-image: url("../../media/gun.jpg");}
 			font-size: 25px;
 		}
 
+		.racehover{
+			display: none ;
+			font-family: 'Montserrat', sans-serif;
+		    color: black;
+		    font-size: 13px;
+		    margin-left: 970px;	
+		    height: 100px;
+		    width:300px;
+		}
 #records{
 	width:600px;
 	height:400px;
@@ -158,12 +215,21 @@ background-image: url("../../media/gun.jpg");}
 	margin-left: 700px;
 background-image: url("../../media/blue.jpg");}
 
-		#rectxt{
+		.rectxt{
 			text-align: center;
 			font-family: 'Montserrat', sans-serif;
 			height:50px;
 			margin-left: 600px;
 			font-size: 25px;
+		}
+		.rechover{
+			display: none ;
+			font-family: 'Montserrat', sans-serif;
+		    color: black;
+		    font-size: 13px;
+		    margin-left: 1120px;	
+		    height: 100px;
+		    width:300px;
 		}
 
 #style{
@@ -171,10 +237,22 @@ background-image: url("../../media/blue.jpg");}
 	height:250px;
 	margin-left: 30px;
 background-image: url("../../media/mini.jpg");}
-		#styletxt{
+		.styletxt{
 			text-align: center;
 			font-family: 'Montserrat', sans-serif;
 			height:50px;
 			margin-left: -990px;
 			font-size: 25px;
 		}
+		.stylehover{
+			display: none ;
+			font-family: 'Montserrat', sans-serif;
+		    color: black;
+		    font-size: 13px;
+		    margin-left: 1060px;	
+		    height: 100px;
+		    width:300px;
+		}
+
+
+

@@ -1,0 +1,20 @@
+body {
+  padding: 0 10px;
+}
+
+#some-element {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+ 
+}
+
+#some-div:hover #some-element{
+  text-align: center;
+			font-family: 'Montserrat', sans-serif;
+			height:50px;
+			margin-left: 700px;
+			font-size: 25px;
+}
