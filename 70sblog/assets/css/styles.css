@@ -262,13 +262,65 @@ background-image: url("../../media/mini.jpg");}
 		    height: 100px;
 		    width:300px;
 		}
+#footer{
+font-family: 'Montserrat', sans-serif;
+margin: auto;
+font-size: 20px;
+text-align: center;
+}
 
 
 @media (max-width: 750px) {
 	#cars{
-	width: 40px;
-	height: 40px;
-	margin-left: 10px;
+	width: 410px;
+height: 420px;
+margin-left: 30px;
+display: inline-block;
+}
+	#cosmetics{
+	width: 410px;
+	height: 420px;
+	display: inline-block;
+	}
+#mag{
+	width: 410px;
+	height: 420px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+#movies{
+	width: 410px;
+	height: 420px;
+	margin-left: 30px;
+	display: inline-block;
+}
+#protest{
+width: 410px;
+height: 420px;
+margin-left: 30px;
+display: inline-block;
+}
+
+#race{
+width: 410px;
+height: 420px;
+margin-left: 30px;
+display: inline-block;
+}
+
+#records{
+width: 410px;
+height: 420px;
+margin-left: 30px;
+display: inline-block;
+}
+
+#style{
+width: 410px;
+height: 420px;
+margin-left: 30px;
+display: inline-block;
 }
 
 #maintxt{
@@ -283,7 +335,85 @@ background-image: url("../../media/mini.jpg");}
 	
 }
 
-@media(max-width: 375){
+@media(max-width: 375px){
+		#cars{
+	width: 300;
+	height: 320;
+	display: inline-block;
+}
+		.cartxt{
+		margin-left: 40px;
+		width:20px; 
+		height:20px;
+		font-size: 10px;
+		}
+		.carhover{
+			display:none;}
+	#cosmetics{
+	width: 300;
+	height: 320;
+	display: inline-block;
+	}
+	.coshover{
+		display:none;
+	}
+#mag{
+	width: 300;
+	height: 320;
+	display: inline-block;
+}
+
+.magtxt{
+	margin-left: -40px;
+}
+.maghover{
+	display:none;
+}
+
+#movies{
+	width: 300;
+	height: 320;
+	display: inline-block;
+}
+.movhover{
+	display:none;
+}
+#protest{
+width: 300;
+height: 320;
+display: inline-block;
+}
+.prohover{
+	display: none;
+}
+
+#race{
+width: 300;
+height: 320;
+display: inline-block;
+}
+.racehover{
+	display:none;
+}
+
+#records{
+width: 300;
+height: 320;
+display: inline-block;
+}
+.rechover{
+	display: none;
+}
+
+#style{
+width: 300;
+height: 320;
+display: inline-block;
+}
+
+.stylehover{
+	display: none;
+}
 	#maintxt{
 		width: 100px;
 		font-size: 10px;

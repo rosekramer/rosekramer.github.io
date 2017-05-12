@@ -1,6 +1,4 @@
-$(".menu").click(function() {
-    $(".menuhover").show();
-});
+
 
 
 $(".text").on({
