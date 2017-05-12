@@ -1,3 +1,8 @@
+$(".menu").click(function() {
+    $(".menuhover").show();
+});
+
+
 $(".text").on({
     mouseover: function() {
         $(".coshover").stop().show();
@@ -9,7 +14,7 @@ $(".text").on({
     }
 })
 
-$(".text1").on({
+$(".text").on({
     mouseover: function() {
         $(".maghover").stop().show();
     },

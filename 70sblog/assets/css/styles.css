@@ -1,8 +1,17 @@
-#ham{
+
+.menu{
     width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
+}
+.menuhover{
+	display: none ;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-size: 13px;
+	height: 100px;
+	width:300px;
 }
 
 h2{
@@ -41,7 +50,7 @@ h1{
 
 #maintxt{
 font-family: 'Montserrat', sans-serif;
-width:450px;
+width:600px;
 height:500px;
 margin: auto;
 }
@@ -135,10 +144,10 @@ header {
 			display: none ;
 			font-family: 'Montserrat', sans-serif;
 		    color: black;
-		    font-size: 13px;
-		    margin-left: 1120px;	
-		    height: 100px;
+		    font-size: 13px;	
+		    height: 300px;
 		    width:300px;
+		    margin-left: 300px;
 		}
 #movies{
 	width:300px;
@@ -181,7 +190,7 @@ header {
 			font-family: 'Montserrat', sans-serif;
 		    color: black;
 		    font-size: 13px;
-		    margin-left: 1120px;	
+		    margin-left: 200px;	
 		    height: 100px;
 		    width:300px;
 		}
@@ -227,7 +236,7 @@ background-image: url("../../media/blue.jpg");}
 			font-family: 'Montserrat', sans-serif;
 		    color: black;
 		    font-size: 13px;
-		    margin-left: 1120px;	
+		    margin-left: 260px;	
 		    height: 100px;
 		    width:300px;
 		}
@@ -254,5 +263,38 @@ background-image: url("../../media/mini.jpg");}
 		    width:300px;
 		}
 
+
+@media (max-width: 750px) {
+	#cars{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+#maintxt{
+	font-size: 15px;
+	width: 400px;
+}
+
+.collection{
+	width: 400px;
+	height: 200px;
+}
+	
+}
+
+@media(max-width: 375){
+	#maintxt{
+		width: 100px;
+		font-size: 10px;
+	}
+	header{
+		font-size: 20px;
+	}
+
+	h1{
+		font-size: 10px;
+	}
+}
 
 
